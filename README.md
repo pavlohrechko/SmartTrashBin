@@ -39,7 +39,6 @@ The **Smart Trash Bin** is an automated waste sorting system that uses **artific
 ## **Results**  
 - **89.6% classification accuracy** across waste types  
 - Sorting process completed in an **average of 15 seconds** per item  
-- **96.5% correct sorting rate**, reducing human sorting errors  
 
 ## **Future Improvements**  
 - **Enhancing classification accuracy**, especially for organic waste  
@@ -52,13 +51,7 @@ The **Smart Trash Bin** is an automated waste sorting system that uses **artific
 pip install openai edge_impulse_linux opencv-python numpy gpiozero bluetooth
 ```
 
-### **2. Set Up OpenAI API Key**  
-Export your API key before running the program:  
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
-
-### **3. Run the System**  
+### **2. Run the System**  
 ```bash
 python button.py
 ```
